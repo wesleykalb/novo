@@ -16,8 +16,10 @@ def painel_comando():
     global texto
     operacao = 0
     while operacao != '3':
-        print('===============================\nBem vindo ao painel de comando.'
-              '\n==============================='' \ndigite 1 para remover uma venda: \n'
+        print('===============================')
+        print('Bem vindo ao painel de comando.')
+        print('===============================')
+        print('digite 1 para remover uma venda: \n'
               'digite 2 para adicionar uma nova venda: \ndigite 3 para continuar'
               ' para a soma do faturamento:  \ndigite 0 para voltar ao menu inicial: ')
         operacao = input()
